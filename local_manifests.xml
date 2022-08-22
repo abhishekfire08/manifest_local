@@ -5,6 +5,10 @@
             fetch="https://github.com/abhishekhembrom08"/>
      <remote name="carbonrom"
             fetch="http://github.com/CarbonROM"/>
+     <remote name="Evolution-X"
+            fetch="http://github.com/Evolution-X"/>
+     <remote name="Evolution-X-Devices"
+            fetch="http://github.com/Evolution-X-Devices"/
   
   <!-- Device Trees -->
         <project name="device_oppo_RMX1805" path="device/oppo/RMX1805" remote="ab" revision="cr-9.0" /> 
