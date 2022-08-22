@@ -11,10 +11,10 @@
             fetch="http://github.com/Evolution-X-Devices"/
   
   <!-- Device Trees -->
-        <project name="device_oppo_RMX1805" path="device/oppo/RMX1805" remote="ab" revision="evo" /> 
+        <project name="device_oppo_RMX1805" path="device/oppo/RMX1805" remote="ab" revision="elle" /> 
          
   <!-- Vendor Trees -->
-        <project name="vendor_oppo" path="vendor/oppo" remote="ab" revision="evo" />        
+        <project name="vendor_oppo" path="vendor/oppo" remote="ab" revision="elle" />        
         
 </manifest> 
 
