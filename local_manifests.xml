@@ -7,7 +7,7 @@
             fetch="http://github.com/CarbonROM"/>
   
   <!-- Device Trees -->
-        <project name="device_oppo_RMX1805" path="device/oppo/RMX1805" remote="ab" revision="cr-9.0" /> 
+        <project name="device_oppo_RMX1805" path="device/oppo/RMX1805" remote="ab" revision="lineage-19.1" /> 
          
   <!-- Vendor Trees -->
         <project name="vendor_oppo" path="vendor/oppo" remote="ab" revision="cr-9.0" />        
