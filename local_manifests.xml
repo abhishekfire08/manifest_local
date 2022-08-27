@@ -7,12 +7,19 @@
             fetch="http://github.com/CarbonROM"/>
      <remote name="Evolution-X"
             fetch="http://github.com/Evolution-X"/>
-
+     <remote name="Nusantara"
+            fetch="https://github.com/NusantaraProject-ROM"/>
+     <remote name="BootleggersROM"
+            fetch="https://github.com/BootleggersROM/"/>
+          
   <!-- Device Trees -->
-        <project name="device_oppo_RMX1805" path="device/oppo/RMX1805" remote="ab" revision="lineage-19.1" /> 
+        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="ab" revision="12.1" /> 
          
   <!-- Vendor Trees -->
-        <project name="vendor_oppo" path="vendor/oppo" remote="ab" revision="cr-9.0" />        
+        <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="ab" revision="12.1" />
+          
+  <!-- kernel Trees -->
+        <project name="kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="ab" revision="12.1" />  
         
 </manifest> 
 
