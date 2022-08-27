@@ -9,8 +9,8 @@
             fetch="http://github.com/Evolution-X"/>
      <remote name="Nusantara"
             fetch="https://github.com/NusantaraProject-ROM"/>
-     <remote name="BootleggersROM"
-            fetch="https://github.com/BootleggersROM/"/>
+     <remote name="Bootleggers-BrokenLab"
+            fetch="https://github.com/Bootleggers-BrokenLab/"/>
           
   <!-- Device Trees -->
         <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="ab" revision="12.1" /> 
