@@ -9,12 +9,9 @@
             fetch="http://github.com/Evolution-X"/>
      <remote name="Nusantara"
             fetch="https://github.com/NusantaraProject-ROM"/>
-     <remote name="Bootleggers-BrokenLab"
-            fetch="https://github.com/Bootleggers-BrokenLab/"/>
-       <remote name="Havoc-OS"
+     <remote name="Havoc-OS"
             fetch="https://github.com/Havoc-OS/"
- 
-          
+               
   <!-- Device Trees -->
         <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="ab" revision="12.1" /> 
          
