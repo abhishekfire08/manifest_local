@@ -13,8 +13,7 @@
             fetch="https://github.com/dotOS-Devices">
      <remote name="External_Faceunlock"
             fetch="https://gitlab.com/DotOS-Official/external_faceunlock">
-               
-  
+                
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
          
@@ -22,7 +21,5 @@
         <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="ab" revision="arrow-12.1" /> 
           
   <!-- kernel Trees -->
-        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="twelve" /> 
-        
+        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="twelve" />         
 </manifest> 
-
