@@ -14,7 +14,6 @@
      <remote name="External_Faceunlock"
             fetch="https://gitlab.com/DotOS-Official/external_faceunlock">
                
-        <project name="external_faceunlock" remote="External_Faceunlock" revision="twelve" /> 
   
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
