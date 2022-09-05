@@ -10,10 +10,10 @@
         <project name="android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
          
   <!-- Vendor Trees -->
-        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
+        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="ab" revision="arrow-12.1" /> 
           
   <!-- kernel Trees -->
-        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
+        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="twelve" /> 
         
 </manifest> 
 
