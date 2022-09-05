@@ -21,5 +21,9 @@
         <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="ab" revision="arrow-12.1" /> 
           
   <!-- kernel Trees -->
-        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="twelve" />         
+        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="twelve" />   
+               
+  <!--Add FaceUnlock-->
+        <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService.git" remote="dotos"/>
+               
 </manifest> 
