@@ -9,8 +9,6 @@
             fetch="https://github.com/DotOS"/>
      <remote name="dotos-official"
             fetch="https://gitlab.com/dotos-official"/>
-     <remote name="dotOS-Devices"
-            fetch="https://github.com/dotOS-Devices"/>
      <remote name="External_Faceunlock"
             fetch="https://gitlab.com/DotOS-Official/external_faceunlock"/>
                 
