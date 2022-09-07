@@ -5,6 +5,8 @@
             fetch="https://github.com/abhishekhembrom08"/>
      <remote name="carbonrom"
             fetch="http://github.com/CarbonROM"/>
+     <remote name="dotos"
+            fetch="https://github.com/DotOS"/>
           
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
