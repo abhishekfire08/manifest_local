@@ -5,8 +5,8 @@
             fetch="https://github.com/abhishekhembrom08"/>
      <remote name="carbonrom"
             fetch="http://github.com/CarbonROM"/>
-     <remote name="faceunlock"
-            fetch="https://gitlab.com/dotos-official/external_faceunlock"/>
+     <remote name="gitlab"
+            fetch="https://gitlab.com"/>
           
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
@@ -16,5 +16,7 @@
           
   <!-- kernel Trees -->
         <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ab" revision="twelve" />   
+          
+        <project name="External Faceunlock" path="packages/apps/FaceUnlockService" remote="gitlab" revision="twelve" />
           
 </manifest> 
