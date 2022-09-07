@@ -6,7 +6,7 @@
      <remote name="carbonrom"
             fetch="http://github.com/CarbonROM"/>
      <remote name="faceunlock"
-            fetch="https://gitlab.com/dotos-official/external_faceunlock/>
+            fetch="https://gitlab.com/dotos-official/external_faceunlock"/>
           
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="ab" revision="12.1" /> 
