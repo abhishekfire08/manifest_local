@@ -18,6 +18,5 @@
           
   <!-- kernel Trees -->
         <project name="abhishekhembrom08/kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="twelve" />
- 
-
+          
 </manifest>
