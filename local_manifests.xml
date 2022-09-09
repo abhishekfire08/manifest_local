@@ -21,6 +21,10 @@
   <!-- Kernel Trees -->
         <project name="kernel_xiaomi_msm8937" path="kernel/xiaomi/rova" remote="renz" revision="12.1" /> 
           
+    <!-- HALs -->
+    <remove-project name="android_hardware_qcom_display" />
+    <project path="hardware/qcom/display-caf/msm8937/" name="Stargazer19/hardware_qcom_display-caf-msm8937" remote="github" revision="pie-caf-8937" />
+          
 </manifest> 
 
 
