@@ -3,7 +3,7 @@
           
      <remote name="ab"
             fetch="https://github.com/abhishekhembrom08"/>
-     remote name="github"
+     <remote name="github"
             fetch="https://github.com" />
      <remote name="AICP"
             fetch="https://github.com/AICP"/>
