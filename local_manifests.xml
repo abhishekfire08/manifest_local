@@ -5,14 +5,18 @@
             fetch="https://github.com/abhishekhembrom08"/>
      <remote name="AICP"
             fetch="https://github.com/AICP"/>
+     <remote name="renz"
+            fetch="https://github.com/ItoRenz-Build"/>
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="ab" revision="12.1" /> 
+        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="ab" revision="13" /> 
          
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="ab" revision="12.1" />  
           
   <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="ab" revision="12.1" /> 
+        <project name="kernel_xiaomi_msm8937" path="kernel/xiaomi/rova" remote="renz" revision="12.1" /> 
           
 </manifest> 
+
+
