@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-     <remote name="git"
-            fetch="https://github.com"/>
-          
-          
-  <!-- <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="git" revision="master" /> -->
-  
-  <!-- Device Trees -->
-        <project name="abhishekhembrom08/device_xiaomi_rova" path="device/xiaomi/rova" remote="git" revision="13" /> 
-         
-  <!-- Vendor Trees -->
-        <project name="abhishekhembrom08/vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="git" revision="12.1" />  
-          
-  <!-- Kernel Trees -->
-        <project name="ItoRenz-Build/kernel_xiaomi_msm8937" path="kernel/xiaomi/rova" remote="git" revision="12.1" /> 
-          
-    <!-- HALs -->
-    <remove-project name="android_hardware_qcom_display" />
-    <project path="hardware/qcom/display-caf/msm8937/" name="Stargazer19/hardware_qcom_display-caf-msm8937" remote="git" revision="pie-caf-8937" />
-          
-</manifest> 
 
+        <remote name="rova"
+                fetch="https://github.com" />
 
+       <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="abhishekhembrom08" revision="master" /> -->
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/rova" name="abhishekhembrom08/device_xiaomi_rova" remote="rova" revision="13" />
+        <project path="vendor/xiaomi/rova" name="abhishekhembrom08/vendor_xiaomi_rova" remote="rova" revision="12.1" />
+        <project path="kernel/xiaomi/rova" name="abhishekhembrom08/kernel_xiaomi_rova" remote="rova" revision="12.1" />
+        
+</manifest>
+                                                                                                                                      
+
+ 
