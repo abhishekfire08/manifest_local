@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-     <!-- Remotes -->
-    <remote name="github"
-          fetch="https://github.com/"
-          clone-depth="1" /> 
-          
-    <remote name="gitlab"
-          fetch="https://gitlab.com/"
-          clone-depth="1" />      
-          
-  <!-- Device Trees -->
-        <project name="abhishekhembrom08/android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="github" revision="12.1" /> 
-         
-  <!-- Vendor Trees -->
-        <project name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="arrow-12.1" /> 
-          
-  <!-- kernel Trees -->
-        <project name="abhishekhembrom08/kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="twelve" />
-          
-</manifest>
 
+        <remote name="ginkgo"
+                fetch="https://github.com" />
+
+       <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="abhishekhembrom08" revision="master" /> -->
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo-1" remote="ginkgo" revision="12.1" />
+        <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo" revision="arrow-12.1" />
+        <project path="kernel/xiaomi/ginkgo" name="abhishekhembrom08/kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" />
+        
+</manifest>
+                                                                                                                                      
+
+ 
