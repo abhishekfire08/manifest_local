@@ -3,8 +3,6 @@
 
         <remote name="ginkgo"
                 fetch="https://github.com" />
-        
-        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="abhishekhembrom08" revision="master" /> -->
 
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo-1" remote="ginkgo" revision="12.1" />
