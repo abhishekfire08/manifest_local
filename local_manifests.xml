@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-     <remote name="ab"
-            fetch="https://github.com/abhishekhembrom08"/>
      <remote name="github"
-            fetch="https://github.com" />
-     <remote name="AICP"
-            fetch="https://github.com/AICP"/>
-     <remote name="renz"
-            fetch="https://github.com/ItoRenz-Build"/>
+            fetch="https://github.com"/>
+          
           
   <!-- <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" /> -->
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="ab" revision="13" /> 
+        <project name="abhishekhembrom08/device_xiaomi_rova" path="device/xiaomi/rova" remote="github" revision="13" /> 
          
   <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="ab" revision="12.1" />  
+        <project name="abhishekhembrom08/vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="github" revision="12.1" />  
           
   <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_msm8937" path="kernel/xiaomi/rova" remote="renz" revision="12.1" /> 
+        <project name="ItoRenz-Build/kernel_xiaomi_msm8937" path="kernel/xiaomi/rova" remote="github" revision="12.1" /> 
           
     <!-- HALs -->
     <remove-project name="android_hardware_qcom_display" />
