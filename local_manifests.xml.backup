@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+          
+     <remote name="git"
+            fetch="https://github.com"/>
+          
+          
+  <!-- <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="git" revision="master" /> -->
+  
+  <!-- Device Trees -->
+        <project name="abhishekhembrom08/device_xiaomi_rova" path="device/xiaomi/rova" remote="git" revision="13" /> 
+         
+  <!-- Vendor Trees -->
+        <project name="abhishekhembrom08/vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="git" revision="12.1" />  
+          
+  <!-- Kernel Trees -->
+        <project name="ItoRenz-Build/kernel_xiaomi_msm8937" path="kernel/xiaomi/rova" remote="git" revision="12.1" /> 
+          
+    <!-- HALs -->
+    <remove-project name="android_hardware_qcom_display" />
+    <project path="hardware/qcom/display-caf/msm8937/" name="Stargazer19/hardware_qcom_display-caf-msm8937" remote="git" revision="pie-caf-8937" />
+          
+</manifest> 
 
-        <remote name="mojito"
-                fetch="https://github.com" />
-
-       <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="romgharti" revision="master" /> -->
-
-        <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="arrow-13.0" />
-        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="13test" />
-        <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="13" />
-        
-</manifest>
-                                                                                                                                      
-
- 
