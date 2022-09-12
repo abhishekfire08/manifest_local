@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_testginkgo" remote="ginkgo" revision="blaze" />
+        <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo-2" remote="ginkgo" revision="12.1" />
         <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo" revision="arrow-12.1" />
         <project path="kernel/xiaomi/ginkgo" name="abhishekhembrom08/kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" />
         
