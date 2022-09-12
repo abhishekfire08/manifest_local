@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
 
 	   <!-- Remove -->
-	<remove-project name="packages_apps_Updates" /
+	<remove-project name="packages_apps_Updates" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/rova" name="abhishekhembrom08/device_xiaomi_rova" remote="rova" revision="13" />
