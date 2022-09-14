@@ -11,7 +11,7 @@
           clone-depth="1" />      
           
   <!-- Device Trees -->
-        <project name="abhishekhembrom08/android_device_xiaomi_ginkgo-1" path="device/xiaomi/ginkgo" remote="github" revision="12.1" /> 
+        <project name="abhishekhembrom08/android_device_xiaomi_ginkgo-2" path="device/xiaomi/ginkgo" remote="github" revision="13" /> 
          
   <!-- Vendor Trees -->
         <project name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="arrow-12.1" /> 
