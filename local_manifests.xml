@@ -9,7 +9,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo-2" remote="ginkgo" revision="12.1" />
         <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo" revision="arrow-12.1" />
-        <project path="kernel/xiaomi/ginkgo" name="abhishekhembrom08/kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" />
+        <project path="kernel/xiaomi/ginkgo" name="cbendot/android_vendor_xiaomi_sm6125"" remote="ginkgo" revision="lineage-19.1" />
         
 </manifest>
                                                                                                                                       
