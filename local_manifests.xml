@@ -8,7 +8,7 @@
 	<remove-project name="packages_apps_Updates" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/rova" name="abhishekhembrom08/device_xiaomi_rova" remote="rova" revision="13" />
+        <project path="device/xiaomi/rova" name="abhishekhembrom08/device_xiaomi_rova" remote="rova" revision="12.1" />
         <project path="vendor/xiaomi/rova" name="abhishekhembrom08/vendor_xiaomi_rova" remote="rova" revision="12.1" />
         <project path="kernel/xiaomi/rova" name="abhishekhembrom08/kernel_xiaomi_rova" remote="rova" revision="12.1" />
         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="rova" revision="master" />
