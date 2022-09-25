@@ -6,8 +6,8 @@
 
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" />
-        <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo" revision="arrow-12.1" />
-        <project path="kernel/xiaomi/ginkgo" name="abhishekhembrom08/kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" />
+        <project path="vendor/xiaomi/ginkgo" name="agathasenpai/vendor_xiaomi_ginkgo" remote="ginkgo" revision="thirteen" />
+        <project path="kernel/xiaomi/ginkgo" name="abhishekhembrom08/device_xiaomi_ginkgo-kernel" remote="ginkgo" revision="thirteen" />
         
 </manifest>
                                                                                                                                       
