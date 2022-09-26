@@ -3,10 +3,13 @@
 
         <remote name="ginkgo"
                 fetch="https://github.com" />
+        
+        <remote name="blob"
+                fetch="https://gitlab.pixelexperience.org" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" />
-        <project path="vendor/xiaomi/ginkgo" name="agathasenpai/vendor_xiaomi_ginkgo" remote="ginkgo" revision="thirteen" />
+        <project path="vendor/xiaomi/ginkgo" name="android/vendor-blobs/vendor_xiaomi_ginkgo" remote="blob" revision="thirteen" />
         <project path="kernel/xiaomi/ginkgo" name="abhishekhembrom08/device_xiaomi_ginkgo-kernel" remote="ginkgo" revision="thirteen" />
         
 </manifest>
