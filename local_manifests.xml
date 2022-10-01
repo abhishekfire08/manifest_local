@@ -10,8 +10,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" />
         <project path="vendor/xiaomi/ginkgo" name="android/vendor-blobs/vendor_xiaomi_ginkgo" remote="blob" revision="thirteen" />
-        <project path="kernel/xiaomi/ginkgo" name="PixelExperience-Devices/kernel_xiaomi_ginkgo" remote="ginkgo" revision="thirteen" />
-        <project path="device/xiaomi/ginkgo-kernel" name="PixelExperience-Devices/device_xiaomi_ginkgo-kernel" remote="ginkgo" revision="thirteen" />
+        <project path="kernel/xiaomi/ginkgo" name="rasenss/android_kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" />
         <project path="device/xiaomi/ginkgo-sepolicy" name="PixelExperience-Devices/device_xiaomi_ginkgo-sepolicy" remote="ginkgo" revision="thirteen" />
         
 </manifest>
