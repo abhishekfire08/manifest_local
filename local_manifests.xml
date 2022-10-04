@@ -10,7 +10,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo"    name="abhishekhembrom08/android_device_xiaomi_ginkgo"   remote="ginkgo" revision="arrow-13.0" />
         <project path="vendor/xiaomi/ginkgo"    name="android/vendor-blobs/vendor_xiaomi_ginkgo"        remote="blob"   revision="thirteen" />
-        <project path="kernel/xiaomi/ginkgo"    name="siimsek/Lightning-Kernel" remote="ginkgo" revision="12.0" />
+        <project path="kernel/xiaomi/ginkgo"    name="dump-akemi/kernel_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" />
         <project path="packages/apps/GCamGOPrebuilt"   name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt"      remote="ginkgo" revision="arrow-12.1" />
         
 </manifest>
