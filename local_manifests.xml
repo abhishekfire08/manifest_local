@@ -16,9 +16,6 @@
         <!-- Compiler -->
         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="a3hub/proton-clang" remote="ginkgo" revision="master" clone-depth="1" />
         
-        <!-- Remove -->
-        <remove-project name="hardware/lineage/compat" />
-        
 </manifest>
                                                                                                                                       
 
