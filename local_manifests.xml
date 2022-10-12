@@ -8,10 +8,16 @@
                 fetch="https://gitlab.pixelexperience.org" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" />
-        <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo"   revision="arrow-12.1" />
-        <project path="kernel/xiaomi/ginkgo" name="dump-akemi/kernel_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" />
-        <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="ginkgo" revision="arrow-12.1" />
+        <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" clone-depth="1" />
+        <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo"   revision="arrow-12.1" clone-depth="1" />
+        <project path="kernel/xiaomi/ginkgo" name="dump-akemi/kernel_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" clone-depth="1" />
+        <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="ginkgo" revision="arrow-12.1" clone-depth="1" />
+        
+        <!-- Compiler -->
+        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="a3hub/proton-clang" remote="ginkgo" revision="master" clone-depth="1" />
+        
+        <!-- Remove -->
+        <remove-project name="hardware/lineage/compat" />
         
 </manifest>
                                                                                                                                       
