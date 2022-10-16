@@ -4,15 +4,18 @@
         <remote name="ginkgo"
                 fetch="https://github.com" />
         
-        <remote name="blob"
+        <remote name="pelab"
                 fetch="https://gitlab.pixelexperience.org" />
+        
+        <remote name="lab"
+                fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="awaken" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo"   revision="arrow-12.1" clone-depth="1" />
         <project path="kernel/xiaomi/ginkgo" name="Enprytna/quicksilver_kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="ginkgo" revision="master" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="blob" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="lab" revision="master" clone-depth="1" />
         <project path="packages/apps/GCamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="ginkgo" revision="arrow-12.1" clone-depth="1" />
         
 </manifest>
