@@ -3,12 +3,17 @@
 
         <remote name="rova"
                 fetch="https://github.com" />
+	
+	<!-- Toolchain -->
+        <remote name="cosmic"
+		fetch="https://gitlab.com/GhostMaster69-dev"
+		revision="master" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/rova" name="abhishekhembrom08/device_xiaomi_rova" remote="rova" revision="lineage-20.0" clone-depth="1" />
         <project path="vendor/xiaomi/rova" name="abhishekhembrom08/vendor_xiaomi_rova" remote="rova" revision="12.1" clone-depth="1" />
         <project path="kernel/xiaomi/rova" name="abhishekhembrom08/kernel_xiaomi_rova" remote="rova" revision="12.1" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="rova" revision="master" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="cosmic" revision="master" clone-depth="1" />
 	
 </manifest>
                                                                                                                                       
