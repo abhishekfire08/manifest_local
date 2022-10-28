@@ -17,9 +17,6 @@
         <project path="device/xiaomi/ginkgo" name="abhishekhembrom08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="awaken" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="abhishekhembrom08/android_vendor_xiaomi_ginkgo" remote="ginkgo"   revision="arrow-12.1" clone-depth="1" />
         <project path="kernel/xiaomi/ginkgo" name="Enprytna/quicksilver_kernel_xiaomi_ginkgo" remote="ginkgo" revision="twelve" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" remote fetch="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/master/clang-r450784d" clone-depth="1" />
-        
-</manifest>
 
 
         
