@@ -20,8 +20,7 @@
         <!--project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="lab" revision="main" clone-depth="1"/-->
         <!--project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="ginkgo" revision="master" clone-depth="1"/-->
         <!--project path="prebuilts/clang/host/linux-x86" name="aosp-riscv/platform-prebuilts-clang-host-linux-x86" revision="master" clone-depth="1"/-->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
-
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="lab" revision="12.1" clone-depth="1" />
 
         
 </manifest>
