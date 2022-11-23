@@ -10,18 +10,21 @@
         <remote name="lab"
                 fetch="https://gitlab.com" />
         
-        <remote name="linaro"
-                fetch="https://git.codelinaro.org" />
+        <remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
         
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekfire08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="awaken" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="abhishekfire08/android_vendor_xiaomi_ginkgo" remote="ginkgo"   revision="arrow-12.1" clone-depth="1" />
         <project path="kernel/xiaomi/ginkgo" name="agathasenpai/kernel_xiaomi_ginkgo" remote="ginkgo" revision="thirteen" clone-depth="1"/>
         <!--project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="lab" revision="main" clone-depth="1"/-->
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="ginkgo" revision="master" clone-depth="1"/>
+        <!--project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="ginkgo" revision="master" clone-depth="1"/-->
         <!--project path="prebuilts/clang/host/linux-x86" name="aosp-riscv/platform-prebuilts-clang-host-linux-x86" revision="master" clone-depth="1"/-->
         <!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="lab" revision="12.1" clone-depth="1" /-->
-
+        
+        
+        <!-- (Clang) -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
 </manifest>
                                                                                                                                       
