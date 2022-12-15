@@ -8,12 +8,19 @@
         <remote name="cosmic"
 		fetch="https://gitlab.com/GhostMaster69-dev"
 		revision="master" />
+	
+	<!-- (Clang 2.0) -->
+        <remote name="ImSurajxD"
+		fetch="https://gitlab.com/ImSurajxD" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/rova" name="abhishekfire08/device_xiaomi_rova" remote="rova" revision="lineage-20.0" clone-depth="1" />
         <project path="vendor/xiaomi/rova" name="iusmac/vendor_rova" remote="rova" revision="13-dev" clone-depth="1" />
         <project path="kernel/xiaomi/rova" name="iusmac/kernel_rova" remote="rova" revision="13-dev" clone-depth="1" />
 	<!--project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="cosmic" revision="master" clone-depth="1" /-->
+	
+	<!-- (Clang 2.0) -->
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 	
 </manifest>
                                                                                                                                       
