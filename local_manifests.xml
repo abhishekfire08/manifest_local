@@ -3,8 +3,8 @@
 
         <remote name="rova"
                 fetch="https://github.com" />
-	
-	<!-- Toolchain -->
+
+    <!-- Toolchain -->
         <remote name="cosmic"
 		fetch="https://gitlab.com/GhostMaster69-dev"
 		revision="master" />
@@ -15,6 +15,9 @@
 	
 	<remote name="clang"
 		fetch="https://gitlab.com/Amritorock" />
+	
+	<remote name="trb_clang"
+		fetch="https://gitlab.com/varunhardgamer" />
 	
 	<remote name="proton"
 		fetch="https://github.com/kdrag0n" />
@@ -30,7 +33,8 @@
 	
 	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /-->
 	
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="master" clone-depth="1" />
+	<!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="master" clone-depth="1" /-->
+
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="trb_clang" remote="trb_clang" revision="main" clone-depth="1" />
 	
 </manifest>
-                                                                                                                                      
