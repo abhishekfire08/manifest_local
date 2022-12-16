@@ -12,6 +12,9 @@
 	<!-- (Clang 2.0) -->
         <remote name="ImSurajxD"
 		fetch="https://gitlab.com/ImSurajxD" />
+	
+	<remote name="clang"
+		fetch="https://gitlab.com/Amritorock" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/rova" name="abhishekfire08/device_xiaomi_rova" remote="rova" revision="lineage-20.0" clone-depth="1" />
@@ -20,7 +23,10 @@
 	<!--project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="cosmic" revision="master" clone-depth="1" /-->
 	
 	<!-- (Clang 2.0) -->
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
+	
+	
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 	
 </manifest>
                                                                                                                                       
