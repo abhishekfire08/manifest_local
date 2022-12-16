@@ -29,12 +29,12 @@
 	<!--project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="cosmic" revision="master" clone-depth="1" /-->
 	
 	<!-- (Clang 2.0) -->
-	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 	
 	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /-->
 	
 	<!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="master" clone-depth="1" /-->
 	
-	<!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="trb_clang" remote="trb_clang" revision="main" clone-depth="1" /-->
+	<!--project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb_clang" revision="main" clone-depth="1" /-->
 	
 </manifest>
