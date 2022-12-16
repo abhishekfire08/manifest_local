@@ -28,7 +28,7 @@
 	<!-- (Clang 2.0) -->
 	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
 	
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /-->
 	
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="master" clone-depth="1" />
 	
