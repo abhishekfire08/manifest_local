@@ -22,7 +22,7 @@
 	<remote name="proton"
 		fetch="https://github.com/kdrag0n" />
 
-        <!-- Sync trees -->
+        <!-- Sync trees --> 
         <project path="device/xiaomi/rova" name="abhishekfire08/device_xiaomi_rova" remote="rova" revision="lineage-20.0" clone-depth="1" />
         <project path="vendor/xiaomi/rova" name="iusmac/vendor_rova" remote="rova" revision="13-dev" clone-depth="1" />
         <project path="kernel/xiaomi/rova" name="iusmac/kernel_rova" remote="rova" revision="13-dev" clone-depth="1" />
