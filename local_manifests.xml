@@ -6,39 +6,18 @@
         
         <remote name="lab"
                 fetch="https://gitlab.com" />
-        
-        <!-- Toolchain -->
-        <remote name="cosmic"
-		fetch="https://gitlab.com/GhostMaster69-dev"
-		revision="master" />
-	
-	<!-- (Clang 2.0) -->
-        <remote name="ImSurajxD"
-		fetch="https://gitlab.com/ImSurajxD" />
 	
 	<remote name="clang"
-		fetch="https://gitlab.com/Amritorock" />
-	
-	<remote name="trb_clang"
-		fetch="https://gitlab.com/varunhardgamer" />
-	
-	<remote name="proton"
-		fetch="https://github.com/kdrag0n" />
+                fetch="https://gitlab.com/Amritorock" />
+		
         
         <!-- Sync trees -->
         <project path="device/xiaomi/ginkgo" name="abhishekfire08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="awaken" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="abhishekfire08/android_vendor_xiaomi_ginkgo" remote="ginkgo"   revision="arrow-12.1" clone-depth="1" />
         <project path="kernel/xiaomi/ginkgo" name="abhishekfire08/android_kernel_xiaomi_ginkgo" remote="ginkgo" revision="arrow-12.1" clone-depth="1"/>
-        <!--project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="cosmic" revision="master" clone-depth="1" /-->
-	
-	<!-- (Clang 2.0) -->
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
-	
-	<!--project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /-->
-	
-	<!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="master" clone-depth="1" /-->
-	
-	<!--project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb_clang" revision="main" clone-depth="1" /-->
+    	
+	<!-- Clang-->
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
         
 </manifest>
                                                                                                                                       
