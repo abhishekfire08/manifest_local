@@ -12,10 +12,9 @@
 		
         
         <!-- Sync trees -->
-        <project path="device/xiaomi/ginkgo" name="abhishekfire08/device_xiaomi_ginkgo_pe" remote="ginkgo" revision="thirteen" clone-depth="1" />
-        <project path="vendor/xiaomi/ginkgo" name="ArrowOS-Devices/android_vendor_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.0" clone-depth="1" / >
-        <project path="kernel/xiaomi/ginkgo" name="PixelExperience-Devices/device_xiaomi_ginkgo-kernel" remote="ginkgo" revision="thirteen" clone-depth="1"/>
-		<project path="device/xiaomi/ginkgo-kernel" name="PixelExperience-Devices/kernel_xiaomi_ginkgo" remote="ginkgo" revision="thirteen" clone-depth="1"/>
+        <project path="device/xiaomi/ginkgo" name="abhishekfire08/android_device_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.1" clone-depth="1" />
+        <project path="vendor/xiaomi/ginkgo" name="ArrowOS-Devices/android_vendor_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.1" clone-depth="1" />
+        <project path="kernel/xiaomi/ginkgo" name="ArrowOS-Devices/android_kernel_xiaomi_ginkgo" remote="ginkgo" revision="arrow-13.1" clone-depth="1"/>
     	
 	<!-- Clang-->
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
